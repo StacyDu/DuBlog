@@ -1,5 +1,6 @@
 html, body{
     margin: 0px;
+    height: 100%;
 }
 
 /*navigation bar styling*/
@@ -26,3 +27,55 @@ ul.navbar {
     
     ul.navbar li a.active {background-color: pink;}
     ul.navbar li a:hover:not(.active) {background-color: white;}
+
+
+
+/*Home Page*/
+
+#startPage{
+    margin: 0;
+    padding: 5%;  
+    background-image: url(../img/5TAw6y4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%; 
+    
+}
+#mainTitle{
+    font-size: 900%;
+    font-family: 'Amatic SC', cursive;
+    margin: 5%;
+}
+#description {
+    background: rgba(255, 255, 255, 0.75);
+    color: black;
+      width: 50%;
+     
+}
+  
+  #person{
+      float: right;
+      width: 30%;
+  }
+  
+  .leftSide{
+      margin-left:200px;
+  }
+  
+  /*Second Page*/
+  
+  #blog{
+      height: 100%;
+  }
+  
+  /*Third Page*/
+  
+  #travel{
+      height: 100%;
+  }
+  
+  /*FourthPage*/
+  
+  #inspiration{
+      height: 100%;
+  }
