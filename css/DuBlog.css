@@ -55,20 +55,21 @@ ul.navbar {
     color: black;
     width: 60%;
     font-size: 25px;
+    margin:0;
+    margin-right: 200px;
 }
-  
+   
 #person{
        float: right;
-      /*width: 20%; */
-      vertical-align: top;
+      margin-top: -450px;
       width: 25%;
-  }
+  } 
   
   .leftSide{
-     margin: 0; 
+    margin: 0; 
     width: 45%;
     float: left;  
-    width: 75%;
+    
   }
   
   /*Second Page*/
