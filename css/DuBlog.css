@@ -43,8 +43,6 @@ ul.navbar {
     font-family: 'Amatic SC', cursive;
 }
 
-
-
 #mainTitle{
     font-size: 200px;
     margin: 0;
@@ -59,47 +57,30 @@ ul.navbar {
     margin-right: 200px;
 }
    
-#person{
-       float: right;
-      margin-top: -450px; */
-       width: 25%;
-      
-      
-  } 
-  
-  .leftSide{
-    margin: 0; 
-     width: 45%; 
-    float: left; 
-   
-    
-  }
-  
-  /*Second Page*/
+    /*Second Page*/
   
   #blog{
     height: 100%;
     background-color: palevioletred;
     padding: 50px;
     }
-h2{
-  font-size: 40px;
+.titleText{
+  font-size: 50px;
   text-align: center;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Amatic SC', cursive !important;
 }
 
 .notes{
   list-style:none;
-  overflow:hidden;
-  
+  overflow:hidden; 
 }
 .notes > li a{
     text-decoration:none;
     color:#000;
     background:#ffc;
     display:block;
-    height:8em;
-    width:8em;
+    height:20em;
+    width:20em;
     padding:2em;
     -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
     -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
@@ -121,18 +102,17 @@ z-index:5;
 background: white;
 }
 .notes > li{
-margin:2em;
+margin:3em;
 float:left;
 }
 
-.changedNote{
-background: #7b9ea8;  
+ .changedNote{ 
   -o-transform:rotate(-3deg);
 -webkit-transform:rotate(-3deg);
 -moz-transform:rotate(-3deg);
 position:relative;
 top:-1px;
-}
+} 
 /*Third Page*/
 
 #travel{
