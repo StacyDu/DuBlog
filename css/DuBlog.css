@@ -120,7 +120,9 @@ top:-1px;
     background-color:white;
     padding: 50px;
 }
-
+/*.carousel{
+    width: 100%;
+}
 .jumbotron{
     padding: 10px;
 }
