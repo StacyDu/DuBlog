@@ -39,7 +39,6 @@ ul.navbar {
     background
     : url(../img/5TAw6y4.jpg) no-repeat center center fixed;
     background-size: cover;
-    /* height: 79%; */
     min-height: 100vh; 
     font-family: 'Amatic SC', cursive;
 }
@@ -52,7 +51,7 @@ ul.navbar {
 #description {
     background: rgba(255, 255, 255, 0.75);
     color: black;
-    width: 60%;
+    width: 100%;
     font-size: 25px;
     margin:0;
     margin-right: 200px;
