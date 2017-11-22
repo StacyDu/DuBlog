@@ -13,6 +13,7 @@ ul.navbar {
     position: fixed;
     background-color: mistyrose;
     overflow: hidden;
+    z-index: 1;
     }
     
     ul.navbar li a{
