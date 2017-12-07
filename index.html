@@ -119,7 +119,7 @@
                   </a>
                 </div>
         
-        <div class = "photoText col-md-5 text-center jumbotron">
+        <div class = "photoText col-md-5 text-center">
             <p>What you could say about the picture. </p>
             <p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas 
               malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. 
@@ -134,23 +134,25 @@
     
     <section id = "inspiration">
      
-        <form class="center">
-            <h2 class = "titleText">Contact</h2>
-          <div class="input-group col-xs-4">
-            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-            <input id="email" type="text" class="form-control" name="email" placeholder="Email">
-          </div>
-          <br/>
-          <div class="input-group col-xs-4">
-            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-            <input id="password" type="password" class="form-control" name="password" placeholder="Password">
-          </div>
-          <br/>
-          <div class="input-group col-xs-4">
-            <span class="input-group-addon">Message</span>
-            <input id="msg" type="text" class="form-control" name="msg" placeholder="Additional Info">
-          </div>
-        </form>
+      <h2 class = "titleText">Have any questions? Contact me</h2>
+      <form action="/my-handling-form-page" method="post">
+              <div>
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="user_name" value="Please, enter your name">
+              </div>
+              <div>
+                  <label for="mail">E-mail:</label>
+                  <input type="email" id="mail" name="user_mail" value="example@dublog.com">
+              </div>
+              <div>
+                  <label for="msg">Message:</label>
+                  <textarea id="msg" name="user_message">Please, enter your text</textarea>
+              </div>
+          
+              <div class="button">
+                  <button type="submit" class = "btn btn-default">Send</button>
+              </div>
+      </form>
          
        
     </section>
