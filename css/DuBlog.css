@@ -4,7 +4,7 @@ html, body{
 }
 
 /*navigation bar styling*/
-ul.navbar {
+/*ul.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -27,8 +27,9 @@ ul.navbar {
     }
     
     ul.navbar li a.active {background-color: pink;}
-    ul.navbar li a:hover:not(.active) {background-color: white;}
+    ul.navbar li a:hover:not(.active) {background-color: white;}*/
 
+    
 
 
 /*Home Page*/
