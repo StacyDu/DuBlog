@@ -29,7 +29,13 @@ html, body{
     ul.navbar li a.active {background-color: pink;}
     ul.navbar li a:hover:not(.active) {background-color: white;}*/
 
-    
+    .navbar-inverse{
+        background-color: mistyrose !important;
+        border: none !important;
+        font-family: 'Amatic SC', cursive !important;
+        font-size: 30px !important;
+        color: black !important;
+    }
 
 
 /*Home Page*/
