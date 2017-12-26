@@ -135,8 +135,6 @@ top:-1px;
     background: rgba(255, 255, 255, 0.75);
 }
 
-
-
 /*FourthPage*/
 
 #inspiration{
@@ -151,7 +149,7 @@ form {
   padding: 50px;
   border: 1px solid #CCC;
   border-radius: 1em;
-    background-color: white;
+  background-color: white;
 }
 
 form div + div {
@@ -189,6 +187,8 @@ textarea {
  /* padding-left: 90px;*/ 
     text-align: right;
 }
+
+
 
 @media screen and (max-width: 680px) {
     
