@@ -54,6 +54,9 @@ html, body{
     font-size: 200px;
     margin: 0;
 }
+.person{
+    position: relative;
+}
 
 #description {
     background: rgba(255, 255, 255, 0.75);
@@ -62,6 +65,16 @@ html, body{
     font-size: 25px;
     margin:0;
     margin-right: 200px;
+}
+
+#hand{
+    position: absolute;
+    top:121px;
+    left:20px;
+}
+
+#body{
+    position: absolute;
 }
    
     /*Second Page*/
@@ -208,4 +221,11 @@ textarea {
      button{
         width:100%;
     }
+}
+
+@media screen and (max-width: 995px) {
+    
+     .person{
+         display: none;
+     }
 }
