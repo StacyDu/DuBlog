@@ -67,6 +67,32 @@ document.addEventListener("DOMContentLoaded", function (){
     //     };
 
     //     });
+    var backgrnd = document.getElementById("startPage");
+    var hand = document.getElementById("hand");
+    hand.addEventListener("click", function(){
+        deg = 0;
+        var id = setInterval(frame, 30);
+        function frame(){
+            if(deg>-10){
+                deg--;
+                hand.style.transform = 'rotate('+deg+'deg)';
+            }else if(deg==-10){
+                clearInterval(id);
+                hand.style.transform = 'rotate(0deg)'; 
+                 if(backgrnd.style.background == "pink"){
+                    backgrnd.style.background = 'url(img/5TAw6y4.jpg) no-repeat center center fixed';
+                    backgrnd.style.backgroundSize = "cover";
+                 }else{
+                    backgrnd.style.background = "pink";
+                 }
+            }
+        }
+       
+    })
+    
+    
+
+
 
 });
 
